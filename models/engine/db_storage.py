@@ -85,7 +85,7 @@ class DBStorage:
             if value.id == id:
                 return value
         return None
-    
+
     def count(self, cls=None):
         """Count the number of objects in storage"""
         from models import storage
