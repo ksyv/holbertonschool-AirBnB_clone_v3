@@ -80,4 +80,3 @@ def put_city(city_id):
         return make_response(jsonify(city.to_dict()), 200)
     else:
         abort(404)
-        
